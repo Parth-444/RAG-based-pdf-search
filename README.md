@@ -1,4 +1,4 @@
-# Context Aware Document Search engine
+# Context Aware Document Search Engine
 
 **SemanticPDF-RAG** is a Retrieval-Augmented Generation (RAG) application that allows semantic search and question-answering over PDF documents using large language models (LLMs). Simply upload a PDF, generate embeddings, and ask questions in natural language to retrieve contextually accurate information from the document.
 
