@@ -84,15 +84,9 @@ streamlit run app.py
 
 - FAISS – In-memory vector store for semantic search
 
--- PyMyPDF / pdfplumber – PDF text extraction
+- PyMyPDF / pdfplumber – PDF text extraction
 
 ## 📦 Requirements
-Basic dependencies (add to requirements.txt):
-
-- streamlit
-- langchain
-- langchain-google-genai
-- faiss-cpu
-- pymupdf
-- python-dotenv
+``` bash
+pip install -r requirements.txt
 
