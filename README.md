@@ -75,11 +75,9 @@ streamlit run app.py
 5. The LLM will generate a concise, context-aware answer based on the retrieved content.
 
 ## Notes
-This project is framework-agnostic and can be extended with different vector databases or LLM providers.
-
-Ensure your API keys and secrets are kept secure.
-
-Currently, the app uses Streamlit for rapid prototyping and demo purposes.
+- This project is framework-agnostic and can be extended with different vector databases or LLM providers.
+- Ensure your API keys and secrets are kept secure.
+- Currently, the app uses Streamlit for rapid prototyping and demo purposes.
 
 ## Contribution
 Contributions are welcome! Feel free to open issues or pull requests for bug fixes, new features, or improvements.
