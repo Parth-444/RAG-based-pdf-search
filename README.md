@@ -15,7 +15,7 @@
 ---
 
 ## 🗂️ Folder Structure
-
+```bash
 SemanticPDF-RAG/
 │
 ├── data/ # Directory to store uploaded PDF files
@@ -26,7 +26,7 @@ SemanticPDF-RAG/
 ├── llm_client.py # Sends similar chunks to LLM and returns answers
 └── query_embed.py # Generates query embeddings for similarity search
 
-
+```
 ---
 
 ## ⚙️ Setup Instructions
