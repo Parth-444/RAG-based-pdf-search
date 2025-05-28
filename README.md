@@ -50,10 +50,49 @@ pip install -r requirements.txt
 ```
 4. Set your environment variable
 ```bash
-Copy
-Edit
 # Linux/macOS
 export GOOGLE_API_KEY="your_google_api_key"
 
 # Windows (Command Prompt)
 set GOOGLE_API_KEY=your_google_api_key
+```
+
+5. Run the app
+```bash
+
+streamlit run app.py
+```
+## 🧑‍💻 How to Use
+1. Upload a PDF using the Streamlit interface.
+
+2. Click "🔄 Convert to Embeddings" to chunk and embed your document.
+
+3. Enter a query in natural language (e.g., "What are the side effects of drug X?").
+
+4. The app searches for relevant document chunks.
+
+5. Gemini (LLM) generates a contextual answer using those chunks.
+
+## 🧩 Tech Stack
+- Python
+
+- Streamlit – UI
+
+- LangChain – Prompting and chaining
+
+- Gemini (via Google Generative AI API) – LLM interface
+
+- FAISS – In-memory vector store for semantic search
+
+-- PyMyPDF / pdfplumber – PDF text extraction
+
+## 📦 Requirements
+Basic dependencies (add to requirements.txt):
+
+- streamlit
+- langchain
+- langchain-google-genai
+- faiss-cpu
+- pymupdf
+- python-dotenv
+
